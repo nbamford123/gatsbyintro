@@ -25,7 +25,8 @@ const Layout = ({ children }) => {
           body {
             margin: 0;
             color: #555;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,  sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+              Helvetica, Arial, sans-serif;
             font-size: 18px;
             line-height: 1.4;
           
