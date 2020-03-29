@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import usePosts  from '../hooks/usePosts';
@@ -12,6 +11,7 @@ export default () => {
     <>
       <Hero />
       <Layout>
+        <h2>Read my blog</h2>
         {posts.map(post => (
           <PostPreview key={post.slug} post={post} />
         ))}

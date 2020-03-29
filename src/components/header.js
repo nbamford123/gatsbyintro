@@ -33,6 +33,7 @@ const Header = () => (
     <nav css={css`margin-top: 0;`}>
       <NavLink to="/" activeClassName='current-page'>Home</NavLink>
       <NavLink to="/about" activeClassName='current-page'>About</NavLink>
+      <NavLink to="/contact" activeClassName='current-page'>Contact</NavLink>
     </nav>
   </header>
 );
