@@ -67,7 +67,8 @@ const Layout = ({ children }) => {
       <main
         css={css`
           margin: 2rem auto;
-          max-width: 550px; 
+          max-width: 90vw;
+          width: 550px; 
         `}
       >
         {children}
